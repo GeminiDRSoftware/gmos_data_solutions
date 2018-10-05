@@ -42,16 +42,10 @@ templates_path = ['_templates']
 source_suffix = '.rst'
 
 # The master toctree document.
-master_doc = 'index'
-master_doc = 'dates'
-master_doc = 'imaging'
-master_doc = 'spectroscopyLS'
-master_doc = 'spectroscopyMOS'
-master_doc = 'spectroscopyIFU'
-master_doc = 'appendix'
+master_doc = 'GMOS_data_reduction_problems_and_solutions'
 
 # General information about the project.
-project = u'GMOS solutions'
+project = u'GMOS data reduction problems and solutions'
 copyright = u'2018, AURA, Inc.'
 author = u'VFirpo'
 
@@ -125,7 +119,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'GMOS_documentationdoc'
+htmlhelp_basename = 'GMOS_data_red_solutions'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -152,8 +146,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'index', 'GMOS_documentation.tex', u'GMOS\\_documentation Documentation',
-     u'VFirpo', 'manual'),
+    (master_doc, 'GMOS_data_red_solutions.tex', u'GMOS data reduction problems and solutions', u'AURA, Inc.', 'manual'),
 ]
 
 
@@ -162,7 +155,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'gmos_documentation', u'GMOS_documentation Documentation',
+    (master_doc, 'GMOS_data_red_solutions', u'GMOS_data_red_solutions',
      [author], 1)
 ]
 
@@ -173,10 +166,27 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'GMOS_documentation', u'GMOS_documentation Documentation',
-     author, 'GMOS_documentation', 'A guide to provides some solutions in the data from GMOS.',
-     'Manual'),
+    (master_doc, 'GMOS_data_red_solutions', u'GMOS data reduction problems and solutions', author, 'GMOS_data_red_solutions', 'A guide to solutions for some GMOS data reduction problems', 'Manual'),
 ]
 
 
+# -- Options for Epub output ----------------------------------------------
+
+# Bibliographic Dublin Core info.
+epub_title = project
+epub_author = author
+epub_publisher = author
+epub_copyright = copyright
+
+# The unique identifier of the text. This can be a ISBN number
+# or the project homepage.
+#
+# epub_identifier = ''
+
+# A unique identification for the text.
+#
+# epub_uid = ''
+
+# A list of files that should not be packed into the epub file.
+epub_exclude_files = ['search.html']
 
