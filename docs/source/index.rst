@@ -12,59 +12,61 @@
 GMOS solutions documentation
 =============================
 
-| Germán Gimeno & Verónica Firpo, `Gemini Observatory <http://www.gemini.edu>`_
-| Aug. 2018, La Serena
+.. | Germán Gimeno & Verónica Firpo, `Gemini Observatory <http://www.gemini.edu>`_
+.. | Aug. 2018, La Serena
 
+
+This content has been moved to https://www.gemini.edu/node/21963
   
-Contents
-^^^^^^^^
+.. Contents
+.. ^^^^^^^^
 
-This tutorial will provide some advanced tips on GMOS data reduction that will hopefully help to solve some of the most serious issues that may arise as a consequence of the problems related to the detectors and the instrument. These solutions were compiled from the numerous requests from the users within the last few years. These are not definitive, fail-proof solutions; they may work well with some datasets and not so well on others, depending on what was the initial observing strategy, the quality of the raw data, etc.
+.. This tutorial will provide some advanced tips on GMOS data reduction that will hopefully help to solve some of the most serious issues that may arise as a consequence of the problems related to the detectors and the instrument. These solutions were compiled from the numerous requests from the users within the last few years. These are not definitive, fail-proof solutions; they may work well with some datasets and not so well on others, depending on what was the initial observing strategy, the quality of the raw data, etc.
 
-Familiarity of the user with the gemini.gmos iraf package is assumed.
+.. Familiarity of the user with the gemini.gmos iraf package is assumed.
 
 
-.. toctree::
-   :maxdepth: 2
+.. .. toctree::
+..   :maxdepth: 2
      
-   dates.rst
+..   dates.rst
 
-How to solve problems with images.
+.. How to solve problems with images.
 
-.. toctree::
-   :maxdepth: 2
+.. .. toctree::
+..    :maxdepth: 2
 
-   imaging.rst
+..   imaging.rst
 
-How to solve problems with longslit spectroscopy.
+.. How to solve problems with longslit spectroscopy.
 
-.. toctree::
-   :maxdepth: 2
+.. .. toctree::
+..   :maxdepth: 2
 
-   spectroscopyLS.rst
+..   spectroscopyLS.rst
 
-How to solve problems with MOS spectroscopy.
+.. How to solve problems with MOS spectroscopy.
 
-.. toctree::
-   :maxdepth: 2
+.. .. toctree::
+..   :maxdepth: 2
 
-   spectroscopyMOS.rst
+..   spectroscopyMOS.rst
 
-How to solve problems with 3D spectroscopy.
+.. How to solve problems with 3D spectroscopy.
 
-.. toctree::
-   :maxdepth: 2
+.. .. toctree::
+..   :maxdepth: 2
 
-   spectroscopyIFU.rst
+..   spectroscopyIFU.rst
 
 
-Appendix
-^^^^^^^^
+.. Appendix
+.. ^^^^^^^^
 
-.. toctree::
-   :maxdepth: 2
+.. .. toctree::
+..   :maxdepth: 2
 
-   appendix.rst
+..   appendix.rst
 
 
 
